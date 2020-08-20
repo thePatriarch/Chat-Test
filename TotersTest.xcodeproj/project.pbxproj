@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186D4EC424E7D9860074C3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EC324E7D9860074C3FE /* AppDelegate.swift */; };
+		186D4EC624E7D9860074C3FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EC524E7D9860074C3FE /* SceneDelegate.swift */; };
+		186D4EC824E7D9860074C3FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EC724E7D9860074C3FE /* ViewController.swift */; };
+		186D4ECB24E7D9860074C3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186D4EC924E7D9860074C3FE /* Main.storyboard */; };
+		186D4ECE24E7D9860074C3FE /* TotersTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 186D4ECC24E7D9860074C3FE /* TotersTest.xcdatamodeld */; };
+		186D4ED024E7D98A0074C3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186D4ECF24E7D98A0074C3FE /* Assets.xcassets */; };
+		186D4ED324E7D98A0074C3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186D4ED124E7D98A0074C3FE /* LaunchScreen.storyboard */; };
+		186D4EDB24E805A10074C3FE /* ChatUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D4EDA24E805A10074C3FE /* ChatUserTableViewCell.swift */; };
+		18801AAE24EAEF21004D3794 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18801AAD24EAEF21004D3794 /* ChatViewController.swift */; };
+		18801AB024EC5C93004D3794 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18801AAF24EC5C93004D3794 /* ChatTableViewCell.swift */; };
+		18F6AFDA24EC862200B44172 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18F6AFD924EC862200B44172 /* bg.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186D4EC024E7D9860074C3FE /* TotersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186D4EC324E7D9860074C3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186D4EC524E7D9860074C3FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		186D4EC724E7D9860074C3FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186D4ECA24E7D9860074C3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186D4ECD24E7D9860074C3FE /* TotersTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TotersTest.xcdatamodel; sourceTree = "<group>"; };
+		186D4ECF24E7D98A0074C3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186D4ED224E7D98A0074C3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186D4ED424E7D98A0074C3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186D4EDA24E805A10074C3FE /* ChatUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserTableViewCell.swift; sourceTree = "<group>"; };
+		18801AAD24EAEF21004D3794 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18801AAF24EC5C93004D3794 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		18F6AFD924EC862200B44172 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186D4EBD24E7D9860074C3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186D4EB724E7D9860074C3FE = {
+			isa = PBXGroup;
+			children = (
+				186D4EC224E7D9860074C3FE /* TotersTest */,
+				186D4EC124E7D9860074C3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186D4EC124E7D9860074C3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186D4EC024E7D9860074C3FE /* TotersTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186D4EC224E7D9860074C3FE /* TotersTest */ = {
+			isa = PBXGroup;
+			children = (
+				186D4EC324E7D9860074C3FE /* AppDelegate.swift */,
+				186D4EC524E7D9860074C3FE /* SceneDelegate.swift */,
+				18F6AFD724EC853900B44172 /* Models */,
+				18F6AFD824EC854B00B44172 /* Views */,
+				18F6AFD524EC84FD00B44172 /* Controllers */,
+				18F6AFD624EC852000B44172 /* Cells */,
+				186D4ECF24E7D98A0074C3FE /* Assets.xcassets */,
+				186D4ED124E7D98A0074C3FE /* LaunchScreen.storyboard */,
+				186D4ED424E7D98A0074C3FE /* Info.plist */,
+				18F6AFDB24EC862C00B44172 /* Assets */,
+				186D4ECC24E7D9860074C3FE /* TotersTest.xcdatamodeld */,
+			);
+			path = TotersTest;
+			sourceTree = "<group>";
+		};
+		18F6AFD524EC84FD00B44172 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				186D4EC724E7D9860074C3FE /* ViewController.swift */,
+				18801AAD24EAEF21004D3794 /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18F6AFD624EC852000B44172 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				186D4EDA24E805A10074C3FE /* ChatUserTableViewCell.swift */,
+				18801AAF24EC5C93004D3794 /* ChatTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18F6AFD724EC853900B44172 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18F6AFD824EC854B00B44172 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				186D4EC924E7D9860074C3FE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18F6AFDB24EC862C00B44172 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18F6AFD924EC862200B44172 /* bg.jpeg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186D4EBF24E7D9860074C3FE /* TotersTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186D4ED724E7D98A0074C3FE /* Build configuration list for PBXNativeTarget "TotersTest" */;
+			buildPhases = (
+				186D4EBC24E7D9860074C3FE /* Sources */,
+				186D4EBD24E7D9860074C3FE /* Frameworks */,
+				186D4EBE24E7D9860074C3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TotersTest;
+			productName = TotersTest;
+			productReference = 186D4EC024E7D9860074C3FE /* TotersTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186D4EB824E7D9860074C3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Sulyman;
+				TargetAttributes = {
+					186D4EBF24E7D9860074C3FE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 186D4EBB24E7D9860074C3FE /* Build configuration list for PBXProject "TotersTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186D4EB724E7D9860074C3FE;
+			productRefGroup = 186D4EC124E7D9860074C3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186D4EBF24E7D9860074C3FE /* TotersTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186D4EBE24E7D9860074C3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F6AFDA24EC862200B44172 /* bg.jpeg in Resources */,
+				186D4ED324E7D98A0074C3FE /* LaunchScreen.storyboard in Resources */,
+				186D4ED024E7D98A0074C3FE /* Assets.xcassets in Resources */,
+				186D4ECB24E7D9860074C3FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186D4EBC24E7D9860074C3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186D4ECE24E7D9860074C3FE /* TotersTest.xcdatamodeld in Sources */,
+				186D4EC824E7D9860074C3FE /* ViewController.swift in Sources */,
+				18801AAE24EAEF21004D3794 /* ChatViewController.swift in Sources */,
+				186D4EC424E7D9860074C3FE /* AppDelegate.swift in Sources */,
+				18801AB024EC5C93004D3794 /* ChatTableViewCell.swift in Sources */,
+				186D4EDB24E805A10074C3FE /* ChatUserTableViewCell.swift in Sources */,
+				186D4EC624E7D9860074C3FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		186D4EC924E7D9860074C3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186D4ECA24E7D9860074C3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186D4ED124E7D98A0074C3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186D4ED224E7D98A0074C3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186D4ED524E7D98A0074C3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		186D4ED624E7D98A0074C3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186D4ED824E7D98A0074C3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TotersTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sulyman.TotersTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		186D4ED924E7D98A0074C3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TotersTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sulyman.TotersTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186D4EBB24E7D9860074C3FE /* Build configuration list for PBXProject "TotersTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186D4ED524E7D98A0074C3FE /* Debug */,
+				186D4ED624E7D98A0074C3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186D4ED724E7D98A0074C3FE /* Build configuration list for PBXNativeTarget "TotersTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186D4ED824E7D98A0074C3FE /* Debug */,
+				186D4ED924E7D98A0074C3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		186D4ECC24E7D9860074C3FE /* TotersTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				186D4ECD24E7D9860074C3FE /* TotersTest.xcdatamodel */,
+			);
+			currentVersion = 186D4ECD24E7D9860074C3FE /* TotersTest.xcdatamodel */;
+			path = TotersTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 186D4EB824E7D9860074C3FE /* Project object */;
+}
