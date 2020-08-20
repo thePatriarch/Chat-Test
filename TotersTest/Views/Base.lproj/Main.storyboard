@@ -158,14 +158,14 @@
                                         <rect key="frame" x="8" y="11" width="287" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="send" enablesReturnKeyAutomatically="YES"/>
+                                        <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyN-Er-pVY">
                                         <rect key="frame" x="308" y="13" width="36" height="30"/>
                                         <state key="normal" title="Send"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="VyN-Er-pVY" secondAttribute="trailing" constant="31" id="0Xo-Q0-6o1"/>
                                     <constraint firstItem="VyN-Er-pVY" firstAttribute="leading" secondItem="n2S-cb-nbn" secondAttribute="trailing" constant="13" id="Y5d-Kp-JU5"/>

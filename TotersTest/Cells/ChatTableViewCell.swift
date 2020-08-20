@@ -24,11 +24,11 @@ class ChatTableViewCell: UITableViewCell {
     private func setIsMyMessage(){
         
         self.container.semanticContentAttribute = .forceLeftToRight
-        self.container.backgroundColor = .gray
+        self.container.backgroundColor = .lightGray
     }
     private func setisNotMyMessage(){
         
-        self.container.backgroundColor = .blue
+        self.container.backgroundColor = .systemBlue
         self.container.semanticContentAttribute = .forceRightToLeft
     }
     func setData(withMessage message: Message){

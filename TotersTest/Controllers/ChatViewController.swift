@@ -30,7 +30,9 @@ class ChatViewController: UIViewController {
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.tableView.backgroundColor = UIColor.clear
+        self.tableView.separatorStyle = .none
         
+        self.navigationController?.navigationBar.backgroundColor = .white
         self.title = user.name
         
         self.textField.delegate = self
@@ -57,17 +59,19 @@ class ChatViewController: UIViewController {
         }
     }
     @objc func sendButtonPressed(_ sender: UIButton){
-        
-        saveToCoreData(with: self.textField.text!, isMyMessage: true)
-        fetchFromCoreData()
-        
-        let delay = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + Double(delay)) {
-            self.saveToCoreData(with: self.textField.text!, isMyMessage: false)
-            self.fetchFromCoreData()
+        if textField.text != ""{
+            let text = textField.text!
+            textField.text = ""
+            saveToCoreData(with: text, isMyMessage: true)
+            fetchFromCoreData()
+            
+            let delay = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + Double(delay)) {
+                self.saveToCoreData(with: text, isMyMessage: false)
+                self.fetchFromCoreData()
+            }
         }
-        
         
     }
     func saveToCoreData(with text: String, isMyMessage: Bool){
@@ -139,5 +143,9 @@ extension ChatViewController: UITextFieldDelegate{
         if textField.text == ""{
             self.sendButton.isEnabled = false
         }
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.endEditing(true)
+        return true
     }
 }
