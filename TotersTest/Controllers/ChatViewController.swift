@@ -69,6 +69,7 @@ class ChatViewController: UIViewController {
             
             DispatchQueue.main.asyncAfter(deadline: .now() + Double(delay)) {
                 self.saveToCoreData(with: text, isMyMessage: false)
+                self.saveToCoreData(with: text, isMyMessage: false)
                 self.fetchFromCoreData()
             }
         }
